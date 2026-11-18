@@ -2,24 +2,24 @@
 class Rlord < Formula
   desc "Manage your AI coding agents with AI, in tmux"
   homepage "https://github.com/robot-lord/robot-overlord"
-  version "1.11.0"
+  version "1.12.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/robot-lord/robot-overlord/releases/download/v1.11.0/rlord-v1.11.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f19fb09a0233a44f6112eb837c1b1bb8575524bc6592b4d7b17a7d8540fb5cb0"
+      url "https://github.com/robot-lord/robot-overlord/releases/download/v1.12.0/rlord-v1.12.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fcbf9ca1a8b9c20b055ce554c0505a12e39da8b6b380151ad6357a2d1643f6b0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/robot-lord/robot-overlord/releases/download/v1.11.0/rlord-v1.11.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8a29b1748a5bee8fdeafa0979f6c9f90b6a1597122fccd85644217acda4cf57b"
+      url "https://github.com/robot-lord/robot-overlord/releases/download/v1.12.0/rlord-v1.12.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c499373316106f75aa3bc18e536d1df1f0e331fdb2a22d5620dd64e4b2337109"
     end
     on_arm do
-      url "https://github.com/robot-lord/robot-overlord/releases/download/v1.11.0/rlord-v1.11.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0f9a5989ba9a6e30145969e78ede4a7742e5650ae2d1bf5d86285b5e7775ff1f"
+      url "https://github.com/robot-lord/robot-overlord/releases/download/v1.12.0/rlord-v1.12.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "46103a63c8f8833c5476e13ee3c0b0f0ad1ad4e997a8791c9fde65a4d1ef83ce"
     end
   end
 
